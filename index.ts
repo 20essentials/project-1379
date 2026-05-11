@@ -66,8 +66,6 @@ if (body.firstChild) {
   body.appendChild(controlsPanel);
 }
 
-// Execute example
-// @ts-expect-error
 const example = await import('./src/index');
 
 // Create example controls
