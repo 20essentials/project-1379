@@ -4,6 +4,9 @@ import tailwindVite from '@tailwindcss/vite';
 
 export default defineConfig({
   base: '/project-1379/',
+  build: {
+    target: 'esnext',
+  },
   plugins: [
     tailwindVite(),
     typegpuPlugin(),
